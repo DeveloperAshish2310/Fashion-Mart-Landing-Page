@@ -1,0 +1,373 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+:root {
+  --web-theme-body: #111111dc;
+  --web-theme-text: #fff;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  background-color: var(--web-theme-body);
+  color: var(--web-theme-text);
+  font-family: "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Badge colors */
+
+.badge-red {
+  background-color: #dc2626;
+}
+.badge-black {
+  background-color: #27272a;
+}
+.badge-green {
+  background-color: #22c55e;
+}
+.badge-blue {
+  background-color: #3b82f6;
+}
+.badge-yellow {
+  background-color: #facc15;
+}
+.badge-pink {
+  background-color: #d946ef;
+}
+.badge-none {
+  background-color: transparent;
+}
+
+/* Text Color */
+
+.text-red {
+  color: #dc2626;
+}
+.text-black {
+  color: #27272a;
+}
+.text-green {
+  color: #22c55e;
+}
+.text-blue {
+  color: #3b82f6;
+}
+.text-yellow {
+  color: #facc15;
+}
+.text-pink {
+  color: #d946ef;
+}
+.text-none {
+  color: transparent;
+}
+
+.container-fluid {
+  overflow: hidden;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+.bx {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+}
+.ftext {
+  font-family: "Cookie", cursive !important;
+  font-size: 350%;
+  text-transform: capitalize !important;
+}
+.text span {
+  color: black;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-family: "Montserrat", sans-serif;
+}
+
+.text a {
+  text-transform: uppercase;
+  color: black;
+  text-decoration: none;
+  padding-bottom: 5px;
+  border-bottom: 2px solid tomato;
+  letter-spacing: 2px;
+  transition: all ease 2s;
+}
+
+.text p {
+  color: #111;
+  font-size: 2.1vh;
+}
+.searchp .two a {
+  text-transform: uppercase;
+  color: var(--web-theme-text);
+  text-decoration: none;
+  padding-bottom: 5px;
+  letter-spacing: 2px;
+  transition: all ease 2s;
+  font-size: 0.6rem;
+}
+.active {
+  border-bottom: 2px solid tomato;
+}
+.product {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+.product-card {
+  margin: 5px;
+  /* margin-bottom: 500px; */
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+}
+.product-card .head {
+  position: relative;
+  overflow: hidden;
+}
+
+.head .actionbtn {
+  position: absolute;
+  bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 5px;
+}
+
+.head .actionbtn button {
+  background-color: white;
+  height: 15%;
+  width: 15%;
+  border: none;
+  outline: none;
+  margin: 10px;
+  border-radius: 50%;
+  text-align: center;
+  padding: 8px;
+  /* font-size: 1.3rem; */
+}
+
+.product-card .head .badge {
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  border-radius: 0 !important;
+}
+.product-card .head img {
+  height: 350px;
+  width: 250px;
+}
+.product-card .cardbody {
+  text-align: center;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.rating {
+  color: yellow;
+  font-size: 0.7vw;
+  padding: 4px 0;
+}
+.product-card .price {
+  margin: 0;
+  padding: 0;
+}
+
+.slideer {
+  background: url(asset/images/banner/banner-1.jpg);
+  height: 80vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-position: -100px 0;
+  background-size: cover;
+  margin-left: -15px;
+}
+
+.slideer {
+  position: relative;
+}
+.owl-carousel {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+  width: 50% !important;
+  height: 100% !important;
+}
+.owl-carousel .item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.owl-carousel .item .dsxcjk {
+  color: #111 !important;
+}
+.owl-item {
+  border-bottom: none !important;
+}
+.owl-item .active {
+  border-bottom: none !important;
+}
+
+.ehgdhxb {
+  font-size: 1.2rem;
+  color: tomato;
+  text-transform: uppercase;
+}
+.jdsj {
+  text-decoration: none;
+  padding: 8px 0;
+  border-bottom: 1px solid tomato;
+  color: black;
+  text-transform: uppercase;
+}
+.pitem {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+}
+.yhdfn {
+  height: 100px;
+  width: 100px;
+}
+
+.jkshdj {
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+  width: fit-content;
+  margin-bottom: 3rem;
+  font-size: 1rem;
+}
+
+.jkshdj::before {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  height: 3px;
+  width: 50%;
+  background-color: tomato;
+}
+
+.dsjfhc {
+  position: relative;
+}
+.ygfhe {
+  background-color: #d6d3d1;
+  height: 100%;
+  width: 100%;
+}
+
+.ygfhe .circle {
+  background-color: #fff;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.circle .udhf {
+  position: absolute;
+  color: #111;
+  top: 20%;
+  text-align: center;
+  width: 100%;
+}
+
+.circle .sdfn {
+  position: absolute;
+  width: 150%;
+  margin-left: -25%;
+  text-align: center;
+  top: 20%;
+  font-size: 4rem;
+  color: red;
+  font-family: "Cookie", cursive;
+}
+
+.circle .hned {
+  position: absolute;
+  top: 60%;
+  word-spacing: 5px;
+  width: 100%;
+  text-align: center;
+  color: #111;
+}
+
+.counter {
+  position: absolute;
+  bottom: 20%;
+  width: 100%;
+  text-align: center;
+  color: #111;
+}
+
+.counter div span {
+  font-size: x-large;
+}
+.sdnkds {
+  position: absolute;
+  bottom: 10%;
+}
+.sdnkds a {
+  text-align: center;
+  text-decoration: none;
+  color: #111;
+  border-bottom: 1px solid tomato;
+  padding-bottom: 2px;
+  font-family: "Montserrat";
+  /* letter-spacing: 2px; */
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: large;
+}
+.jekdx{
+    margin: 10px;
+}
+.jekdx div i {
+  font-size: xx-large;
+  padding: 5px;
+}
+.jekdx div .weisdhq,
+.jekdx div .isudh {
+  font-size: small;
+  padding: 0 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  .rating {
+    font-size: 2.5vw;
+  }
+  .jkshdj {
+    font-size: 1.42rem;
+  }
+  .slideer {
+    background-repeat: no-repeat;
+    background-position: -20px 0;
+    background-size: cover;
+  }
+  .dsjfhc {
+    height: 450px !important;
+  }
+}
